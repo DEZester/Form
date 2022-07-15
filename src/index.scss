@@ -35,10 +35,7 @@ body {
 h1 {
   font-family: 'Anurati', sans-serif;
   text-transform: uppercase;
-  // background: linear-gradient(to right, #33d1a0, #138e93);
-  // -webkit-background-clip: text;
-  // -webkit-text-fill-color: transparent;
-}
-.Button:hover {
-  background: red;
+  background: linear-gradient(to right, #33d1a0, #138e93);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
