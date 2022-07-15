@@ -9,7 +9,7 @@ import themeGreen from './themes';
 AOS.init();
 
 const Form = ({ showForm }) => (
-  <div className="form" data-aos="flip-up">
+  <div className="form" data-aos="flip-up" data-aos-duration="1300">
     <h1>Registration</h1>
     <Formik
       initialValues={{ email: '', password: '' }}
