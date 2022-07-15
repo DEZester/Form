@@ -32,6 +32,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h1 {
   font-family: 'Anurati', sans-serif;
   text-transform: uppercase;
