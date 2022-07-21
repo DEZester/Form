@@ -1,5 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/anurati');
-
+@import './media.scss';
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,6 +28,10 @@ body {
   height: 400px;
   background: #f8f8f8;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @include telephone-width {
+    width: 370px;
+    height: 320px;
+  }
 }
 .form-menu {
   display: flex;
@@ -44,11 +48,4 @@ h1 {
   background: linear-gradient(to right, #33d1a0, #138e93);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-@media (max-width: 500px) {
-  .form {
-    width: 370px;
-    height: 320px;
-  }
 }
