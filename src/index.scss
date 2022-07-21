@@ -44,3 +44,9 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 500px) {
+  .form {
+    width: 370px;
+    height: 320px;
+  }
+}
